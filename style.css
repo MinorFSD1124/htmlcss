@@ -1,0 +1,75 @@
+body {
+    font-family: "arial";
+}
+
+h1 {
+    color: white;
+    background-color: #6667AB;
+
+    font-size: 24px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #6667AB;
+    color: white; 
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+div {
+    border: 1px solid #6667AB;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #6667AB;
+    margin-right: 10px;
+}
+
+a.delete {
+    color: rgb(146, 8, 8);
+}
+
+span {
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+}
+
+span.inprogress {
+    background-color: orange;
+}
+
+span.todo {
+    background-color: rgb(180, 180, 180)
+}
+
+span.done {
+    background-color: rgb(17, 140, 48);
+}
